@@ -4,7 +4,7 @@
 
 .root {
   background: #262626;
-  color: #fff;
+  color: #29a9dc;
   width: 100%;
   opacity: 0.8;
 }
@@ -35,7 +35,7 @@
 
 .bannerDesc {
   padding: 0;
-  color: rgba(255, 255, 255, 0.5);
+  color: #fff;
   font-size: 1.25em;
   margin: 0;
 }
