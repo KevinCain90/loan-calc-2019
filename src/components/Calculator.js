@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import InputRange from "react-input-range";
 import Display from "./Display";
 import Header from "./Header";
+import Footer from "./Footer";
 
 import "../styles/App.css";
 import "react-input-range/lib/css/index.css";
@@ -46,6 +47,7 @@ class Calculator extends Component {
           />
           <Display years={yearsValue} amount={amountValue} />
         </div>
+        <Footer />
       </React.Fragment>
     );
   }
