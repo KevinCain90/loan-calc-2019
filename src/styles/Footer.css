@@ -1,6 +1,11 @@
-.root {
+.footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
   background: #262626;
   color: #fff;
+  opacity: 0.8;
 }
 
 .container {
@@ -12,25 +17,4 @@
 
 .text {
   color: rgba(255, 255, 255, 0.5);
-}
-
-.spacer {
-  color: rgba(255, 255, 255, 0.3);
-}
-
-.text,
-.link {
-  padding: 2px 5px;
-  font-size: 1em;
-}
-
-.link,
-.link:active,
-.link:visited {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-
-.link:hover {
-  color: rgba(255, 255, 255, 1);
 }

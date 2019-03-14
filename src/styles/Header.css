@@ -5,6 +5,8 @@
 .root {
   background: #262626;
   color: #fff;
+  width: 100%;
+  opacity: 0.8;
 }
 
 .container {
