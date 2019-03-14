@@ -1,5 +1,4 @@
-import React, { Component, Fragment } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from "react";
 import DisplayChild from "./DisplayChild";
 
 class Display extends Component {
@@ -59,10 +58,5 @@ class Display extends Component {
     );
   }
 }
-
-Display.propTypes = {
-  years: PropTypes.number.isRequired,
-  amount: PropTypes.number.isRequired
-};
 
 export default Display;
