@@ -2,6 +2,7 @@
   "name": "kevins-loan-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://KevinCain90.github.io/loan-calc-2019",
   "dependencies": {
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
